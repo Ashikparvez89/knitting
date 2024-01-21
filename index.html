@@ -10,39 +10,40 @@
 
 <body>
     <header>
-        <div class="container mx-auto navbar py-5">
+        <div class="container font-bold mx-auto navbar py-5">
             <div class="navbar-start">
                 <div class="dropdown">
 
                     <ul tabindex="0"
                         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Item 1</a></li>
+                        <li><a class="font-bold">Item 1</a></li>
                         <li>
-                            <a>Parent</a>
+                            <a class="font-bold">Parent</a>
                             <ul class="p-2">
                                 <li><a>Submenu 1</a></li>
                                 <li><a>Submenu 2</a></li>
                             </ul>
                         </li>
-                        <li><a>Item 3</a></li>
+                        <li><a class="font-bold">Item 3</a></li>
                     </ul>
                 </div>
-                <a class=""><img src="./knit-img/loggo.png"
+                <a class="cursor-pointer"><img src="./knit-img/loggo.png"
                         alt=""></a>
             </div>
             <div class="navbar-end hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
+                <ul class="menu menu-horizontal px-1  text-lg">
+                    <li><a class="font-bold">Home</a></li>
                     <li>
                         <details>
-                            <summary>Parent</summary>
+                            <summary>Products</summary>
                             <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
+                                <li><a>Stock-Products</a></li>
+                                <li><a>Custom-order</a></li>
                             </ul>
                         </details>
                     </li>
-                    <li><a>Item 3</a></li>
+                    <li><a class="font-bold">About us</a></li>
+                    <li><a class="font-bold">Contact</a></li>
                 </ul>
             </div>
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -417,17 +418,17 @@
                 <button class="btn btn-warning mt-10">Track Now</button>
             </div>
             <div class="flex justify-center items-center gap-96 pt-24 pb-10">
-                <div class="radial-progress text-primary w-96 h-96" style="--value:70;" role="progressbar"><span
+                <div class="radial-progress text-orange-700 text-primary w-96 h-96" style="--value:70;" role="progressbar"><span
                         class="text-4xl font-extrabold">Overall 70%</span></div>
                 <div class="flex flex-col">
                     <span class="block text-xl font-bold mt-4 mb-4">Knitting</span>
-                    <progress class="progress progress-success w-96 h-6 gap-10 mb-4" value="70" max="100"></progress>
+                    <progress class="progress progress-primary w-96 h-6 gap-10 mb-4" value="70" max="100"></progress>
                     <span class="block text-xl font-bold mt-4 mb-4">yeing</span>
-                    <progress class="progress progress-success w-96 h-6 gap-10 mb-4" value="63.5" max="100"></progress>
+                    <progress class="progress progress-warning w-96 h-6 gap-10 mb-4" value="63.5" max="100"></progress>
                     <span class="block text-xl font-bold mt-4 mb-4">Finishing</span>
-                    <progress class="progress progress-success w-96 h-6 gap-10 mb-4" value="40" max="100"></progress>
+                    <progress class="progress progress-accent w-96 h-6 gap-10 mb-4" value="40" max="100"></progress>
                     <span class="block text-xl font-bold mt-4 mb-4">Packing</span>
-                    <progress class="progress progress-success w-96 h-6 gap-10 mb-4" value="30" max="100"></progress>
+                    <progress class="progress progress-info w-96 h-6 gap-10 mb-4" value="30" max="100"></progress>
                 </div>
             </div>
         </section>
@@ -464,7 +465,7 @@
                         <h2 class="card-title text-xl font-bold">Mr Lu Chit Chai</h2>
                         <p class="mt-4 font-semibold">Head Of Department</p>
                         <div class="card-actions">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button class="btn btn-primary">Explore Team</button>
                         </div>
                     </div>
                 </div>
@@ -476,7 +477,7 @@
                         <h2 class="card-title text-xl font-bold">Suguna Many</h2>
                         <p class="mt-4 font-semibold">Qc supervisor</p>
                         <div class="card-actions">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button class="btn btn-primary">Explore Team</button>
                         </div>
                     </div>
                 </div>
@@ -488,7 +489,7 @@
                         <h2 class="card-title text-xl font-bold">Mr See Wee kiong</h2>
                         <p class="mt-4 font-semibold">Head Of Technichian</p>
                         <div class="card-actions">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button class="btn btn-primary">Explore Team</button>
                         </div>
                     </div>
                 </div>
@@ -503,7 +504,7 @@
 
         <section class="suppliers py-20">
 
-            <h3 class="text-center font-bold text-4xl">explore our production team</h3>
+            <h3 class="text-center font-bold text-4xl">Top Suppliers of 2023</h3>
             <p class="text-center mt-7 text-xl font-bold">Dont worry about your order, Just put your order details here
                 that you can track anytime</p>
                 <div class="flex justify-between py-10 gap-5 mt-10">
